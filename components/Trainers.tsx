@@ -16,37 +16,37 @@ const TRAINERS: Trainer[] = [
     name: 'Mike Torres',
     role: 'Head of Strength & Conditioning',
     certs: ['NASM-CPT', 'CSCS'],
-    img: '/images/trainers/trainer-1.png',
+    img: '/images/trainers/trainer-1.webp',
   },
   {
     name: 'Sofia Reyes',
     role: 'Yoga & Pilates Director',
     certs: ['RYT-500', 'BASI Pilates'],
-    img: '/images/trainers/trainer-2.png',
+    img: '/images/trainers/trainer-2.webp',
   },
   {
     name: 'James Okafor',
     role: 'HIIT & Cardio Coach',
     certs: ['ACE-CPT', 'AFAA'],
-    img: '/images/trainers/trainer-3.jpg',
+    img: '/images/trainers/trainer-3.webp',
   },
   {
     name: 'Priya Sharma',
     role: "Women's Transformation Specialist",
     certs: ['NSCA-CPT', 'Precision Nutrition'],
-    img: '/images/trainers/trainer-4.jpg',
+    img: '/images/trainers/trainer-4.webp',
   },
   {
     name: 'Alex Chen',
     role: 'CrossFit & Nutrition Coach',
     certs: ['CF-L3', 'ISSN Sport Nutritionist'],
-    img: '/images/trainers/trainer-5.jpg',
+    img: '/images/trainers/trainer-5.webp',
   },
   {
     name: 'Emma Walsh',
     role: 'Transformation Coach',
     certs: ['NASM-CPT', 'PN1'],
-    img: '/images/trainers/trainer-6.jpg',
+    img: '/images/trainers/trainer-6.webp',
   },
 ];
 

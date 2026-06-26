@@ -26,8 +26,8 @@ const TRANSFORMATIONS: Transformation[] = [
       { value: '11%', label: 'Body Fat' },
     ],
     quote: '"I came in confused and overweight. I left unrecognisable. AEVUM didn\'t just change my body — it rewrote who I am."',
-    beforeImg: '/images/gallery/raj-before.png',
-    afterImg:  '/images/gallery/raj-after.png',
+    beforeImg: '/images/gallery/raj-before.webp',
+    afterImg:  '/images/gallery/raj-after.webp',
   },
   {
     name: 'Alicia Torres',
@@ -39,8 +39,8 @@ const TRANSFORMATIONS: Transformation[] = [
       { value: '16%', label: 'Body Fat' },
     ],
     quote: '"Priya completely transformed how I see fitness. I\'m stronger, leaner, and more confident than I\'ve ever been in my life."',
-    beforeImg: '/images/gallery/alicia-before.png',
-    afterImg:  '/images/gallery/alicia-after.png',
+    beforeImg: '/images/gallery/alicia-before.webp',
+    afterImg:  '/images/gallery/alicia-after.webp',
   },
   {
     name: 'Marcus Williams',
@@ -52,8 +52,8 @@ const TRANSFORMATIONS: Transformation[] = [
       { value: '5×/week', label: 'Frequency' },
     ],
     quote: '"From 280 lbs and borderline diabetic, to running half-marathons. AEVUM literally saved my life."',
-    beforeImg: '/images/gallery/marcus-before.png',
-    afterImg:  '/images/gallery/marcus-after.png',
+    beforeImg: '/images/gallery/marcus-before.webp',
+    afterImg:  '/images/gallery/marcus-after.webp',
   },
 ];
 

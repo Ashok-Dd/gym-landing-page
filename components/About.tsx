@@ -32,7 +32,7 @@ export default function About() {
           >
             <div className="relative rounded-2xl overflow-hidden">
               <Image
-                src="/images/about.png"
+                src="/images/about.webp"
                 alt="AEVUM gym equipment"
                 width={700}
                 height={550}

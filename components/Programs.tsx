@@ -30,7 +30,7 @@ const MEN: Program[] = [
     level: 'Beginner – Adv',
     duration: '45 min',
     kcal: '500 kcal',
-    img: '/images/programs/men-cardio.jpg',
+    img: '/images/programs/men-cardio.webp',
     desc: 'High-performance cardio circuits that torch fat while building heart health and stamina.',
   },
   {
@@ -38,7 +38,7 @@ const MEN: Program[] = [
     level: 'Intermediate+',
     duration: '30 min',
     kcal: '450 kcal',
-    img: '/images/programs/men-hiit.jpg',
+    img: '/images/programs/men-hiit.webp',
     desc: 'Intense interval training combining strength and speed drills for peak athletic performance.',
   },
 ];
@@ -49,7 +49,7 @@ const WOMEN: Program[] = [
     level: 'All Levels',
     duration: '60 min',
     kcal: '250 kcal',
-    img: '/images/programs/women-yoga.jpg',
+    img: '/images/programs/women-yoga.webp',
     desc: 'Mindful movement sequences that build flexibility, balance, and inner strength.',
   },
   {
@@ -57,7 +57,7 @@ const WOMEN: Program[] = [
     level: 'Beginner – Adv',
     duration: '55 min',
     kcal: '350 kcal',
-    img: '/images/programs/women-pilates.jpg',
+    img: '/images/programs/women-pilates.webp',
     desc: 'Targeted core work and full-body toning using Reformer and mat-based Pilates methods.',
   },
   {
@@ -65,7 +65,7 @@ const WOMEN: Program[] = [
     level: 'Intermediate+',
     duration: '45 min',
     kcal: '480 kcal',
-    img: '/images/programs/women-crossfit.jpg',
+    img: '/images/programs/women-crossfit.webp',
     desc: 'Functional fitness at its hardest — WODs and high-intensity circuits that redefine your limits.',
   },
 ];
