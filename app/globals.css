@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --forge-red: #e63946;
+  --forge-gold: #f4a261;
+  --forge-dark: #050505;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  background-color: #050505;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #050505; }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#e63946, #f4a261);
+  border-radius: 2px;
+}
+
+::selection {
+  background: #e63946;
+  color: white;
+}
+
+/* Swiper overrides */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1.2rem !important;
+  color: #e63946 !important;
+}
+.swiper-pagination-bullet-active {
+  background: #e63946 !important;
+}
+.swiper-pagination-bullet {
+  background: #555 !important;
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 22s linear infinite;
+}
+
+/* Diagonal section utility */
+.clip-diagonal {
+  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
+}
+.clip-diagonal-bottom {
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+}
+
+/* Floating label inputs */
+.input-float-group {
+  position: relative;
+}
+.input-float-group input,
+.input-float-group select,
+.input-float-group textarea {
+  width: 100%;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 20px 16px 8px;
+  color: white;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.3s;
+  font-family: var(--font-montserrat), sans-serif;
+}
+.input-float-group input:focus,
+.input-float-group select:focus,
+.input-float-group textarea:focus {
+  border-color: #e63946;
+}
+.input-float-group label {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  color: #666;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  pointer-events: none;
+  font-family: var(--font-montserrat), sans-serif;
+}
+.input-float-group input:focus + label,
+.input-float-group input:not(:placeholder-shown) + label,
+.input-float-group select:focus + label,
+.input-float-group select:valid + label,
+.input-float-group textarea:focus + label,
+.input-float-group textarea:not(:placeholder-shown) + label {
+  top: 5px;
+  font-size: 0.68rem;
+  color: #e63946;
+  letter-spacing: 0.05em;
+}
+.input-float-group select option {
+  background: #1a1a1a;
+  color: white;
+}
+
+/* Shake animation for form validation */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+.shake {
+  animation: shake 0.4s ease;
+}
+
+/* Before/After slider */
+.ba-container {
+  position: relative;
+  overflow: hidden;
+  cursor: ew-resize;
+  user-select: none;
+  touch-action: pan-y;
+}
+.ba-after {
+  position: absolute;
+  inset: 0;
+}
+.ba-handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: white;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ba-handle-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e63946, #f4a261);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
+  box-shadow: 0 4px 20px rgba(230,57,70,0.5);
+  flex-shrink: 0;
+}
+
+/* BMI scale */
+.bmi-scale-bar {
+  height: 10px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #3b82f6 0%, #22c55e 28%, #f59e0b 56%, #ef4444 80%, #dc2626 100%);
+}
+
+/* Ring SVG gradient */
+.ring-gradient-stop-1 { stop-color: #e63946; }
+.ring-gradient-stop-2 { stop-color: #f4a261; }

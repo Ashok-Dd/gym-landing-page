@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#150303"/>
+    </linearGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e63946"/>
+      <stop offset="100%" stop-color="#f4a261"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <!-- play button circle -->
+  <circle cx="960" cy="500" r="80" fill="url(#btn)" opacity="0.85"/>
+  <polygon points="950,470 950,530 995,500" fill="white"/>
+  <!-- rings -->
+  <circle cx="960" cy="500" r="110" fill="none" stroke="#e63946" stroke-width="2" stroke-opacity="0.3"/>
+  <circle cx="960" cy="500" r="145" fill="none" stroke="#e63946" stroke-width="1" stroke-opacity="0.15"/>
+  <!-- label -->
+  <text x="960" y="630" text-anchor="middle" fill="#333" font-family="sans-serif" font-size="20" letter-spacing="6">VIDEO SECTION POSTER</text>
+  <text x="960" y="660" text-anchor="middle" fill="#2a2a2a" font-family="sans-serif" font-size="14">Replace with a gym photo used as video thumbnail · 1920×1080</text>
+</svg>
